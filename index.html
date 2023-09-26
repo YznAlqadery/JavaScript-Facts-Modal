@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Facts</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>JavaScript Facts</h1>
+    <div class="buttons">
+      <button class="btn-modal-1">Fact 1</button>
+      <button class="btn-modal-2">Fact 2</button>
+      <button class="btn-modal-3">Fact 3</button>
+    </div>
+    <div class="fact-1 hidden">
+      <button class="close-modal">&times;</button>
+      <p>
+        When Brendan Eich first conceived of the language, Originally named is
+        "Mocha" by him, Then changed to name "LiveScript" by Netscape for
+        internally purpose. But when this language come in public platform,
+        "JavaScript" name won the popularity in poll. But questions is why?
+        Answers as below : (It is also containing answer of above two questions)
+        Because this language was originally designed to attract to an audience
+        of mostly Java engineer/programmers/developers.
+      </p>
+    </div>
+
+    <div class="fact-2 hidden">
+      <button class="close-modal">&times;</button>
+      <p>
+        The "alert()" and "console.*()" functions that we use in JavaScript are
+        not actually included in the JS specification. In fact, many other JS
+        APIs and methods such as fetch(), getCurrentLocation(), getUserMeta(),
+        and file operation methods like fs.write() are not specified by the TC39
+        committee. Although these APIs and methods may look like JavaScript
+        functions and object methods, they are not defined by the JS language.
+        They follow the syntax rules of JS, but their behaviors are actually
+        controlled by the environment in which the JS engine is running.
+      </p>
+    </div>
+    <div class="fact-3 hidden">
+      <button class="close-modal">&times;</button>
+      <p>
+        Javascript has Backwards compatibility, not forwards! What is backwards
+        compatibility? Which means that code written in the past should still
+        work in the present and future. This is a critical principle for
+        developers who want to create programs that can run for many years
+        without becoming outdated or unpredictable. JavaScript's commitment to
+        backwards compatibility is impressive, considering the language's almost
+        25-year history.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
